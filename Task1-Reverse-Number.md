@@ -28,7 +28,6 @@
 ```
 思路1：一位一位分离，再进行计算拼接，最后格式化输出   
 ```
-{
 #include<stdio.h>
 int main()
 {
@@ -43,14 +42,11 @@ int main()
 	printf("%1.3f", o);
 	return 0; 
 }
-}
 ```
 ```
 思路2：利用字符型数组顺序接收，逆序输出
 ```
-{
 #include<stdio.h>
-
 int main()
 {
     char input[6];
@@ -61,6 +57,5 @@ int main()
     	printf("%c", input[i]);
 	}
 	return 0; 
-}
 }
 ````
